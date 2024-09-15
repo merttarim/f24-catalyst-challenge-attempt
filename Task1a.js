@@ -1,5 +1,7 @@
 // How do I run this script?
 
+const { todo } = require("node:test");
+
 // In the terminal folder with Task1a.ts
 // node Task1a.js   
 
@@ -23,6 +25,9 @@ const todoList = [];
  */
 function addAndPrintTodos() {
     // YOUR CODE HERE
+    todoList.push("Apply to y/cs!", "Pick out my classes", "Have dinner with my suite");
+
+    console.log(todoList);
 }
 
 /**
